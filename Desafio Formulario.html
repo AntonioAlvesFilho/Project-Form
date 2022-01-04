@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Desafio Formulario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <title>Desafio 1 css</title>
+</head>
+
+<body>
+    <legend>
+        <p id="leg">Formulário</p>
+        <form id="for" action="" method="post" enctype="multipart/form-data">
+
+            <label>
+                <p class="lab2"> Nome:</p>
+                <input id="nam" type="text" name="name" autocomplete="name" autofocus placeholder="Digite Seu nome"
+                    required>
+
+            </label>
+            <label>
+                <p class="lab2">Email:</p>
+
+                <input id="ema" type="email" name="emai" autocomplete="email" placeholder="Digite o Email" required>
+
+            </label>
+            <label>
+                <p class="lab2">Idade:</p>
+
+                <input id="age" type="number" name="age" min="12" max="99" placeholder="Idade" required>
+
+            </label>
+            <label>
+                <p class="lab2">Data de Nascimento:</p>
+
+                <input id="dat" type="date" name="born" autocomplete="email" placeholder="Digite o email" required>
+
+            </label>
+            <label>
+                <p class="lab">Onde voce possui conta:</p>
+
+                <input class="Che" type="checkbox" name="yout">Youtube
+                <input class="Che" type="checkbox" name="inst">Instagram
+                <input class="Che" type="checkbox" name="face">Facebook
+            </label>
+            <label>
+                <p class="lab">Sexo:</p>
+
+                <input type="radio" name="rad1">Masculino
+                <input type="radio" name="rad1">Feminino
+            </label>
+            <label>
+                <p class="lab">Cor dos olhos:</p>
+
+                <input class="whi" type="color" name="colo">
+            </label>
+            <label>
+                <p class="lab">Biografia:</P>
+
+                <textarea class="whi" name="biog" rows="4" cols="30">
+            </textarea>
+            </label>
+            <label>
+                <p class="lab">Foto de Perfil:</p>
+
+                <input type="file" name="file" accept="image/*">
+            </label>
+            <label>
+                <p class="lab">Telefone:</p>
+
+                <input class="whi" type="tel" name="tel" maxlength="14" minlength="14" placeholder="+5511911223344"
+                    required>
+            </label>
+            <label>
+                <p class="lab">Link do perfil facebook:</p>
+
+                <input class="whi" type="url" name="url" placeholder="Ex:https://m.facebook.com/profile.php">
+            </label>
+            <label>
+                <p class="lab">Senha:</p>
+
+                <input class="whi" id="pass" type="password" name="pass" minlength="8" maxlength="8"
+                    placeholder="Senha de 8 digitos" required>
+            </label>
+
+            <button type="submit" id="but1" name="subm">Enviar </button>
+            <button type="reset" id="but2" name="rese">Limpar</button>
+    </legend>
+
+    </form>
+</body>
+
+</html>
